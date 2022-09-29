@@ -1,0 +1,67 @@
+.main {
+  background-color: #161516;
+  color: #fff;
+}
+
+.bskt {
+  max-width: 1300px;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.bskt_header {
+  margin-bottom: 38px;
+  padding-top: 38px;
+  justify-content: center;
+  
+}
+
+.bskt_svg {
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+.bskt_title {
+  display: inline-block;
+  margin-right: 330px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 38px;
+}
+
+.bskt_list {
+  max-width: 860px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.bskt_card {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bskt_footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  border-top: 1px solid #D58C51;
+}
+
+.bskt_asd {
+  max-width: 860px;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bskt_text {
+  margin-right: 16px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+}

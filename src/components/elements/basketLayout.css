@@ -1,0 +1,41 @@
+.basket_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.basket_img {
+  max-width: 132px;
+  max-height: 132px;
+  margin-right: 88px;
+}
+
+.basket_text {
+  width: 270px;
+  margin-right: 260px;
+}
+
+.basket_price{
+  margin-right: 15px;
+  color: #D58C51;
+}
+
+.basket_price:last-child {
+  margin-right: 0;
+}
+
+.basket_button {
+  position: relative;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+}
+
+.basket_svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

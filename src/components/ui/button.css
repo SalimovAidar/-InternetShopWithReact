@@ -1,0 +1,68 @@
+.button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 40px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #D58C51;
+  color: #131313;
+}
+
+.about_button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 76px;
+  border-color: #D58C51;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: transparent;
+  color: #D58C51;
+}
+
+.about_button:hover {
+  background-color: #D58C51;
+  color: #131313;
+  border-color: transparent;
+}
+
+.about_add {
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 62px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #D58C51;
+  color: #131313;
+}
+
+.back-button {
+  position: relative;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+}
+
+.bskt_button {
+  position: relative;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 63px;
+}
+
+.entrance_button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 77px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #D58C51;
+  color: #131313;
+}

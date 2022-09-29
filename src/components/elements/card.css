@@ -1,0 +1,85 @@
+.card {
+  max-width: 312px;
+  border: 1px solid #D58C51;
+}
+
+.card:hover .card_title,
+.card:hover .card_text,
+.card:hover .card_info {
+  color: #D58C51;
+}
+
+.card:hover .card_svg {
+  fill: #D58C51;
+}
+
+.card:hover .card_svg circle {
+  stroke: #D58C51;
+} 
+
+.card_container {
+  display: grid;
+  grid-template-rows: 9fr 1fr;
+  grid-row-gap: 37px;
+  padding: 43px 21px 0 21px;
+  text-decoration: none;
+}
+
+.card_img {
+  margin-bottom: 30px;
+}
+
+.card_title {
+  height: 63px;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: start;
+}
+
+.card_text {
+  height: 100px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: start;
+}
+
+.card_info {
+  max-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_price {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.card_weight {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.aaoignaongiaonia {
+  z-index: 0;
+}
+
+.card_button {
+  position: relative;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+}
+
+.card_svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

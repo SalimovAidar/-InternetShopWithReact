@@ -1,0 +1,45 @@
+.about {
+  height: 100vh;
+  background-image: url('../../public/img/descr_background.png');
+}
+
+.about_container {
+  max-width: 1440px;
+  padding: 0 70px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.about_header {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.about_svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about_products {
+  display: flex;
+  align-items: center;
+  text-align: end;
+}
+
+.about_info {
+  margin-right: 20px;
+}
+
+.about_basket {
+  margin-right: 20px;
+}
+
+.about_descr {
+  padding-bottom: 95px;
+}

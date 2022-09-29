@@ -1,0 +1,118 @@
+.entrance {
+  height: calc(100vh - 236px);
+  background: url('../../public/img/entrance_background.png');
+  padding-top: 17%;
+}
+
+.entrance_container {
+  max-width: 460px;
+  max-height: 370px;
+  background-color: #fff;
+  color: black;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.entrance_link {
+  position: absolute;
+  top: 7px;
+  right: 19px;
+  bottom: 319px;
+  left: 323px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #D58C51;
+}
+
+.container {
+  padding: 36px 20px 26px 20px;
+  text-align: center;
+}
+
+.entrance-title {
+  padding-top: 36px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 38px;
+  color: #161516;
+}
+
+.login,
+.password {
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 95%;
+  padding: 10px 0 10px 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #D58C51;
+  border-radius: 61px;
+  color: #161516;
+}
+
+.input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #161516;
+}
+
+.attention {
+  text-align: start;
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 10px;
+  color: #FF0B0B;
+  margin: 0;
+}
+
+.argeement {
+  text-align: start;
+}
+
+.check__input {
+	position: absolute;
+	left: -99999999px;
+}
+.check__label {
+	vertical-align: middle;
+}
+.check__label::before {
+	content: '';
+	display: inline-block;
+	width: 1.2em;
+	height: 1.2em;
+	padding-bottom: 0.05em;
+	font-size: 0.7em;
+	border: 1px solid #D58C51;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 0.35em;
+	text-align: center;
+	position: relative;
+	top: -0.2em;
+}
+.check__input:checked + .check__label::before {
+	content: '✓';
+  color: #D58C51;
+}
+
+.argeement_attention {
+  display: none;
+  top: 25px;
+  right: 0;
+  bottom: 0;
+  left: 155px;
+}
+
+.entrance_button-container {
+  padding-bottom: 40px;
+}

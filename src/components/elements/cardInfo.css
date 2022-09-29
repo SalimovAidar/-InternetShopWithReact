@@ -1,0 +1,51 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_img {
+  width: 501px;
+  height: 503px;
+  padding-left: 70px;
+}
+
+.info_right {
+  padding: 58px 0 61px 0;
+}
+
+.info_title {
+  max-width: 400px;
+  margin-bottom: 20px;
+  padding-right: 114px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #D58C51;
+}
+
+.info_text {
+  max-width: 528px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.info_descr {
+  display: flex;
+  text-align: center;
+}
+
+.info_sum {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 70px;
+  text-align: center;
+  align-items: center;
+}
+
+.info_price {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+}

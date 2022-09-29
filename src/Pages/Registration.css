@@ -1,0 +1,27 @@
+.registration_link {
+  position: absolute;
+  top: 7px;
+  right: 19px;
+  bottom: 319px;
+  left: 345px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #D58C51;
+}
+
+.login_attention-lenght {
+  width: 242px;
+  top: 45px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.password_attention-lenght {
+  width: 248px;
+  top: 45px;
+  right: 0;
+  bottom: 0px;
+  left: 0px;
+}
